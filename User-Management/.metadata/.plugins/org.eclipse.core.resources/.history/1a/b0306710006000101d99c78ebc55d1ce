@@ -1,0 +1,20 @@
+//import org.springframework.context.ApplicationContext;
+//import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import org.studyeasy.car.Corolla;
+import org.studyeasy.car.Swift;
+import org.studyeasy.interfaces.Car;
+
+public class App {
+    public static void main(String[] args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        
+        Car myCar = context.getBean(Car.class);
+        myCar.specs();
+        
+        ((AnnotationConfigApplicationContext) context).close();
+        
+        
+        
+    }
+}

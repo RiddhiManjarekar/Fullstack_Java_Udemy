@@ -1,0 +1,1024 @@
+2025-08-14 16:47:37,702 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 on hp with PID 305160 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 16:47:37,703 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2025-08-14 16:47:37,703 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 16:47:37,879 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 16:47:37,901 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+2025-08-14 16:47:38,002 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 16:47:38,003 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 16:47:38,004 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-08-14 16:47:38,029 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 16:47:38,029 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 323 ms
+2025-08-14 16:47:38,044 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2025-08-14 16:47:38,060 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2025-08-14 16:47:38,060 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 16:47:38,102 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 16:47:38,108 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 16:47:38,223 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 16:47:38,224 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:47:38,432 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@596a737b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48de84a8, org.springframework.security.web.context.SecurityContextPersistenceFilter@76a3bfaa, org.springframework.security.web.header.HeaderWriterFilter@5f473846, org.springframework.security.web.authentication.logout.LogoutFilter@89a2e34, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@762ce127, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@d1ef67d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e618ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@660595ad, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@73fb7961, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6046dca3, org.springframework.security.web.session.SessionManagementFilter@b01d5cc, org.springframework.security.web.access.ExceptionTranslationFilter@4c27528b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7144bc91]
+2025-08-14 16:47:38,451 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-14 16:47:38,608 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-08-14 16:47:38,626 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-14 16:47:38,628 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Started SpringStarterApplication in 0.983 seconds (JVM running for 4207.948)
+2025-08-14 16:47:39,031 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-08-14 16:47:50,483 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-14 16:47:50,484 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2025-08-14 16:47:50,486 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2025-08-14 16:47:50,490 [DEBUG] org.studyeasy.SpringStarter.Controller.HomeRestController [http-nio-8080-exec-2] This is a test error log
+2025-08-14 16:49:01,772 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-14 16:49:01,786 [INFO] org.apache.catalina.core.StandardService [Thread-16] Stopping service [Tomcat]
+2025-08-14 16:49:01,788 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-16] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-08-14 16:49:01,800 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-16] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:49:01,801 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-16] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 16:49:01,810 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-16] HikariPool-4 - Shutdown initiated...
+2025-08-14 16:49:01,832 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-16] HikariPool-4 - Shutdown completed.
+2025-08-14 16:49:01,957 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 on hp with PID 305160 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 16:49:01,958 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2025-08-14 16:49:01,959 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 16:49:02,111 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 16:49:02,129 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 3 JPA repository interfaces.
+2025-08-14 16:49:02,204 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 16:49:02,205 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 16:49:02,206 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-08-14 16:49:02,226 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 16:49:02,227 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 266 ms
+2025-08-14 16:49:02,237 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2025-08-14 16:49:02,250 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2025-08-14 16:49:02,250 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 16:49:02,275 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 16:49:02,280 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 16:49:02,377 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 16:49:02,378 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:49:02,530 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d1400da, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23b6d267, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e1b393b, org.springframework.security.web.header.HeaderWriterFilter@7ca74697, org.springframework.security.web.authentication.logout.LogoutFilter@594f0d6f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@54f151be, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@26af6e86, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e03b532, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1856c39b, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@35369637, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22306f08, org.springframework.security.web.session.SessionManagementFilter@17322718, org.springframework.security.web.access.ExceptionTranslationFilter@4520af0d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f748293]
+2025-08-14 16:49:02,548 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-14 16:49:02,669 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-08-14 16:49:02,677 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-14 16:49:02,679 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Started SpringStarterApplication in 0.75 seconds (JVM running for 4291.998)
+2025-08-14 16:49:02,838 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-14 16:49:02,839 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-08-14 16:49:02,840 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-08-14 16:49:02,842 [ERROR] org.studyeasy.SpringStarter.Controller.HomeRestController [http-nio-8080-exec-1] This is a test error log
+2025-08-14 16:49:03,016 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-08-14 16:55:09,398 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 59 class path changes (0 additions, 36 deletions, 23 modifications)
+2025-08-14 16:55:09,405 [INFO] org.apache.catalina.core.StandardService [Thread-20] Stopping service [Tomcat]
+2025-08-14 16:55:09,406 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-20] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-08-14 16:55:09,416 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-20] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:55:09,417 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-20] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 16:55:09,422 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-20] HikariPool-5 - Shutdown initiated...
+2025-08-14 16:55:09,437 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-20] HikariPool-5 - Shutdown completed.
+2025-08-14 16:55:14,707 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 on hp with PID 305160 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 16:55:14,708 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2025-08-14 16:55:14,709 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 16:55:14,958 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 16:55:15,008 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+2025-08-14 16:55:15,190 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 16:55:15,191 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 16:55:15,192 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-08-14 16:55:15,252 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 16:55:15,252 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 537 ms
+2025-08-14 16:55:15,298 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2025-08-14 16:55:15,333 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2025-08-14 16:55:15,334 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 16:55:15,466 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 16:55:15,493 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 16:55:15,511 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 16:55:15,514 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:55:15,605 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+2025-08-14 16:55:15,607 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:55:15,608 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [restartedMain] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 16:55:15,609 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Shutdown initiated...
+2025-08-14 16:55:15,627 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Shutdown completed.
+2025-08-14 16:55:15,628 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2025-08-14 16:55:15,634 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-08-14 16:55:15,650 [ERROR] org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.studyeasy.SpringStarter.SpringStarterApplication.main(SpringStarterApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.5.jar:2.7.5]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.get(Lazy.java:115) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 47 common frames omitted
+2025-08-14 16:56:29,521 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 on hp with PID 305160 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 16:56:29,522 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2025-08-14 16:56:29,522 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 16:56:29,869 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 16:56:29,902 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32 ms. Found 3 JPA repository interfaces.
+2025-08-14 16:56:30,059 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 16:56:30,060 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 16:56:30,061 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-08-14 16:56:30,104 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 16:56:30,105 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 577 ms
+2025-08-14 16:56:30,123 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2025-08-14 16:56:30,140 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2025-08-14 16:56:30,142 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 16:56:30,193 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 16:56:30,201 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 16:56:30,215 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 16:56:30,216 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:56:30,294 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+2025-08-14 16:56:30,294 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:56:30,295 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [restartedMain] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 16:56:30,295 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Shutdown initiated...
+2025-08-14 16:56:30,320 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Shutdown completed.
+2025-08-14 16:56:30,321 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2025-08-14 16:56:30,363 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-08-14 16:56:30,376 [ERROR] org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.studyeasy.SpringStarter.SpringStarterApplication.main(SpringStarterApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.5.jar:2.7.5]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.get(Lazy.java:115) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 47 common frames omitted
+2025-08-14 16:57:02,432 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 on hp with PID 305160 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 16:57:02,434 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2025-08-14 16:57:02,434 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 16:57:02,593 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 16:57:02,608 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 3 JPA repository interfaces.
+2025-08-14 16:57:02,703 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 16:57:02,704 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 16:57:02,704 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-08-14 16:57:02,736 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 16:57:02,736 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 300 ms
+2025-08-14 16:57:02,749 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2025-08-14 16:57:02,763 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2025-08-14 16:57:02,764 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 16:57:02,795 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 16:57:02,801 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 16:57:02,809 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 16:57:02,809 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:57:02,850 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+2025-08-14 16:57:02,850 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:57:02,851 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [restartedMain] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 16:57:02,851 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Shutdown initiated...
+2025-08-14 16:57:02,861 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Shutdown completed.
+2025-08-14 16:57:02,862 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2025-08-14 16:57:02,865 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-08-14 16:57:02,870 [ERROR] org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.studyeasy.SpringStarter.SpringStarterApplication.main(SpringStarterApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.5.jar:2.7.5]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.get(Lazy.java:115) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 47 common frames omitted
+2025-08-14 16:57:18,207 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 on hp with PID 305160 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 16:57:18,207 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2025-08-14 16:57:18,207 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 16:57:18,394 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 16:57:18,426 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32 ms. Found 3 JPA repository interfaces.
+2025-08-14 16:57:18,542 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 16:57:18,544 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 16:57:18,544 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-08-14 16:57:18,579 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 16:57:18,580 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 370 ms
+2025-08-14 16:57:18,594 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2025-08-14 16:57:18,605 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2025-08-14 16:57:18,605 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 16:57:18,641 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 16:57:18,647 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 16:57:18,659 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 16:57:18,660 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:57:18,717 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+2025-08-14 16:57:18,718 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 16:57:18,718 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [restartedMain] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 16:57:18,719 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Shutdown initiated...
+2025-08-14 16:57:18,743 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Shutdown completed.
+2025-08-14 16:57:18,744 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2025-08-14 16:57:18,782 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-08-14 16:57:18,794 [ERROR] org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.studyeasy.SpringStarter.SpringStarterApplication.main(SpringStarterApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.5.jar:2.7.5]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.get(Lazy.java:115) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 47 common frames omitted
+2025-08-14 17:20:40,929 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 on hp with PID 305160 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 17:20:40,930 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2025-08-14 17:20:40,930 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 17:20:41,343 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 17:20:41,437 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 91 ms. Found 3 JPA repository interfaces.
+2025-08-14 17:20:41,752 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 17:20:41,756 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 17:20:41,757 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-08-14 17:20:41,832 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-5].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 17:20:41,833 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 897 ms
+2025-08-14 17:20:41,876 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Starting...
+2025-08-14 17:20:41,906 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Start completed.
+2025-08-14 17:20:41,907 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 17:20:41,967 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 17:20:41,982 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 17:20:42,004 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 17:20:42,005 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 17:20:42,099 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+2025-08-14 17:20:42,099 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 17:20:42,100 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [restartedMain] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 17:20:42,100 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Shutdown initiated...
+2025-08-14 17:20:42,116 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Shutdown completed.
+2025-08-14 17:20:42,117 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2025-08-14 17:20:42,121 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-08-14 17:20:42,134 [ERROR] org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.studyeasy.SpringStarter.SpringStarterApplication.main(SpringStarterApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.5.jar:2.7.5]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.get(Lazy.java:115) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 47 common frames omitted
+2025-08-14 17:20:53,102 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 on hp with PID 305160 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 17:20:53,103 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2025-08-14 17:20:53,103 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 17:20:53,254 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 17:20:53,268 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 3 JPA repository interfaces.
+2025-08-14 17:20:53,371 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 17:20:53,372 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 17:20:53,373 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-08-14 17:20:53,401 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-6].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 17:20:53,401 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 296 ms
+2025-08-14 17:20:53,437 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2025-08-14 17:20:53,472 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2025-08-14 17:20:53,473 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 17:20:53,549 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 17:20:53,554 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 17:20:53,566 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 17:20:53,566 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 17:20:53,623 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+2025-08-14 17:20:53,623 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 17:20:53,624 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [restartedMain] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 17:20:53,624 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Shutdown initiated...
+2025-08-14 17:20:53,642 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Shutdown completed.
+2025-08-14 17:20:53,643 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2025-08-14 17:20:53,652 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-08-14 17:20:53,721 [ERROR] org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.studyeasy.SpringStarter.SpringStarterApplication.main(SpringStarterApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.5.jar:2.7.5]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.get(Lazy.java:115) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 47 common frames omitted
+2025-08-14 17:21:06,639 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 on hp with PID 305160 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 17:21:06,639 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2025-08-14 17:21:06,639 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 17:21:06,764 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 17:21:06,777 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 3 JPA repository interfaces.
+2025-08-14 17:21:06,847 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 17:21:06,848 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 17:21:06,848 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-08-14 17:21:06,868 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-7].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 17:21:06,869 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 228 ms
+2025-08-14 17:21:06,879 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Starting...
+2025-08-14 17:21:06,889 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Start completed.
+2025-08-14 17:21:06,889 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 17:21:06,912 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 17:21:06,917 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 17:21:06,928 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 17:21:06,928 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 17:21:06,961 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+2025-08-14 17:21:06,961 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 17:21:06,962 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [restartedMain] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 17:21:06,962 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Shutdown initiated...
+2025-08-14 17:21:06,968 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Shutdown completed.
+2025-08-14 17:21:06,969 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2025-08-14 17:21:06,971 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-08-14 17:21:06,975 [ERROR] org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.studyeasy.SpringStarter.SpringStarterApplication.main(SpringStarterApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.5.jar:2.7.5]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.get(Lazy.java:115) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 47 common frames omitted
+2025-08-14 17:21:23,987 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 on hp with PID 305160 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 17:21:23,988 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2025-08-14 17:21:23,988 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 17:21:24,144 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 17:21:24,159 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 3 JPA repository interfaces.
+2025-08-14 17:21:24,236 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 17:21:24,236 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 17:21:24,237 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-08-14 17:21:24,257 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-8].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 17:21:24,257 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 267 ms
+2025-08-14 17:21:24,272 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Starting...
+2025-08-14 17:21:24,281 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Start completed.
+2025-08-14 17:21:24,281 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 17:21:24,308 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 17:21:24,312 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 17:21:24,320 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 17:21:24,320 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 17:21:24,356 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+2025-08-14 17:21:24,357 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 17:21:24,357 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [restartedMain] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 17:21:24,357 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Shutdown initiated...
+2025-08-14 17:21:24,368 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Shutdown completed.
+2025-08-14 17:21:24,368 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2025-08-14 17:21:24,373 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-08-14 17:21:24,394 [ERROR] org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountController': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.studyeasy.SpringStarter.SpringStarterApplication.main(SpringStarterApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.5.jar:2.7.5]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountRepository' defined in org.studyeasy.SpringStarter.repositories.AccountRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class org.studyeasy.SpringStarter.models.Account
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.util.Lazy.get(Lazy.java:115) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.7.5.jar:2.7.5]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.7.5.jar:2.7.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 47 common frames omitted
+2025-08-14 20:50:42,355 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 with PID 409120 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 20:50:42,357 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v3.0.0, Spring v6.0.2
+2025-08-14 20:50:42,358 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 20:50:42,427 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14 20:50:42,428 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-14 20:50:43,264 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 20:50:43,337 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 61 ms. Found 3 JPA repository interfaces.
+2025-08-14 20:50:43,973 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 20:50:43,989 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 20:50:43,989 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-08-14 20:50:44,055 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 20:50:44,056 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1627 ms
+2025-08-14 20:50:44,078 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-08-14 20:50:44,354 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/blogdb user=ADMIN
+2025-08-14 20:50:44,355 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-08-14 20:50:44,364 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 20:50:44,487 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 20:50:44,550 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.5.Final
+2025-08-14 20:50:44,757 [WARN] org.hibernate.orm.deprecation [restartedMain] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2025-08-14 20:50:44,939 [INFO] SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 20:50:45,917 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 20:50:45,927 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 20:50:46,270 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'seedData': Unsatisfied dependency expressed through field 'accountService': Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'passwordEncoder': No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-08-14 20:50:46,270 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 20:50:46,271 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [restartedMain] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 20:50:46,277 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2025-08-14 20:50:46,287 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2025-08-14 20:50:46,289 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2025-08-14 20:50:46,302 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-14 20:50:46,331 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field passwordEncoder in org.studyeasy.SpringStarter.services.AccountService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+2025-08-14 20:52:37,193 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 with PID 375336 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 20:52:37,194 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v3.0.0, Spring v6.0.2
+2025-08-14 20:52:37,195 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 20:52:37,258 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14 20:52:37,259 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-14 20:52:37,915 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 20:52:37,980 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2025-08-14 20:52:38,558 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 20:52:38,569 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 20:52:38,569 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-08-14 20:52:38,634 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 20:52:38,634 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1374 ms
+2025-08-14 20:52:38,662 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-08-14 20:52:38,847 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/blogdb user=ADMIN
+2025-08-14 20:52:38,848 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-08-14 20:52:38,858 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 20:52:38,979 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 20:52:39,025 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.5.Final
+2025-08-14 20:52:39,187 [WARN] org.hibernate.orm.deprecation [restartedMain] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2025-08-14 20:52:39,286 [INFO] SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 20:52:40,356 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 20:52:40,376 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 20:52:40,915 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-14 20:52:41,285 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@769f7961, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b05db0a, org.springframework.security.web.context.SecurityContextHolderFilter@71763577, org.springframework.security.web.header.HeaderWriterFilter@7987d1c5, org.springframework.security.web.authentication.logout.LogoutFilter@9215e8b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@b72313e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@592e8323, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3aa82647, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@739bb726, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@51e299bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@267ff98d, org.springframework.security.web.access.ExceptionTranslationFilter@2bf5995f, org.springframework.security.web.access.intercept.AuthorizationFilter@2f77d73b]
+2025-08-14 20:52:41,669 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-08-14 20:52:41,706 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-14 20:52:41,712 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Started SpringStarterApplication in 4.927 seconds (process running for 5.447)
+2025-08-14 20:52:43,535 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-14 20:52:43,535 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2025-08-14 20:52:43,537 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed initialization in 1 ms
+2025-08-14 20:52:43,856 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-3] [THYMELEAF][http-nio-8080-exec-3][home_views/home] Deprecated unwrapped fragment expression "fragments/head :: head" found in template home_views/home, line 4, col 7. Please use the complete syntax of fragment expressions instead ("~{fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:43,917 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-3] [THYMELEAF][http-nio-8080-exec-3][home_views/home] Deprecated unwrapped fragment expression "fragments/header :: header" found in template home_views/home, line 14, col 13. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:43,990 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-3] [THYMELEAF][http-nio-8080-exec-3][home_views/home] Deprecated unwrapped fragment expression "fragments/footer :: footer" found in template home_views/home, line 83, col 11. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,891 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-5] [THYMELEAF][http-nio-8080-exec-5][account_views/login] Deprecated unwrapped fragment expression "/fragments/head :: head" found in template account_views/login, line 3, col 7. Please use the complete syntax of fragment expressions instead ("~{/fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,901 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-5] [THYMELEAF][http-nio-8080-exec-5][account_views/login] Deprecated unwrapped fragment expression "/fragments/header :: header" found in template account_views/login, line 11, col 13. Please use the complete syntax of fragment expressions instead ("~{/fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,923 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-5] [THYMELEAF][http-nio-8080-exec-5][account_views/login] Deprecated unwrapped fragment expression "/fragments/footer :: footer" found in template account_views/login, line 49, col 11. Please use the complete syntax of fragment expressions instead ("~{/fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,938 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-7] [THYMELEAF][http-nio-8080-exec-7][account_views/login] Deprecated unwrapped fragment expression "/fragments/head :: head" found in template account_views/login, line 3, col 7. Please use the complete syntax of fragment expressions instead ("~{/fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,942 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-7] [THYMELEAF][http-nio-8080-exec-7][account_views/login] Deprecated unwrapped fragment expression "/fragments/header :: header" found in template account_views/login, line 11, col 13. Please use the complete syntax of fragment expressions instead ("~{/fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,946 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-7] [THYMELEAF][http-nio-8080-exec-7][account_views/login] Deprecated unwrapped fragment expression "/fragments/footer :: footer" found in template account_views/login, line 49, col 11. Please use the complete syntax of fragment expressions instead ("~{/fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,958 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-8] [THYMELEAF][http-nio-8080-exec-8][account_views/login] Deprecated unwrapped fragment expression "/fragments/head :: head" found in template account_views/login, line 3, col 7. Please use the complete syntax of fragment expressions instead ("~{/fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,963 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-8] [THYMELEAF][http-nio-8080-exec-8][account_views/login] Deprecated unwrapped fragment expression "/fragments/header :: header" found in template account_views/login, line 11, col 13. Please use the complete syntax of fragment expressions instead ("~{/fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,969 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-8] [THYMELEAF][http-nio-8080-exec-8][account_views/login] Deprecated unwrapped fragment expression "/fragments/footer :: footer" found in template account_views/login, line 49, col 11. Please use the complete syntax of fragment expressions instead ("~{/fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,980 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-9] [THYMELEAF][http-nio-8080-exec-9][account_views/login] Deprecated unwrapped fragment expression "/fragments/head :: head" found in template account_views/login, line 3, col 7. Please use the complete syntax of fragment expressions instead ("~{/fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,984 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-9] [THYMELEAF][http-nio-8080-exec-9][account_views/login] Deprecated unwrapped fragment expression "/fragments/header :: header" found in template account_views/login, line 11, col 13. Please use the complete syntax of fragment expressions instead ("~{/fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,989 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-9] [THYMELEAF][http-nio-8080-exec-9][account_views/login] Deprecated unwrapped fragment expression "/fragments/footer :: footer" found in template account_views/login, line 49, col 11. Please use the complete syntax of fragment expressions instead ("~{/fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:44,997 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-3] [THYMELEAF][http-nio-8080-exec-3][account_views/login] Deprecated unwrapped fragment expression "/fragments/head :: head" found in template account_views/login, line 3, col 7. Please use the complete syntax of fragment expressions instead ("~{/fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:45,001 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-3] [THYMELEAF][http-nio-8080-exec-3][account_views/login] Deprecated unwrapped fragment expression "/fragments/header :: header" found in template account_views/login, line 11, col 13. Please use the complete syntax of fragment expressions instead ("~{/fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:45,007 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-3] [THYMELEAF][http-nio-8080-exec-3][account_views/login] Deprecated unwrapped fragment expression "/fragments/footer :: footer" found in template account_views/login, line 49, col 11. Please use the complete syntax of fragment expressions instead ("~{/fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:49,575 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-7] [THYMELEAF][http-nio-8080-exec-7][home_views/home] Deprecated unwrapped fragment expression "fragments/head :: head" found in template home_views/home, line 4, col 7. Please use the complete syntax of fragment expressions instead ("~{fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:49,580 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-7] [THYMELEAF][http-nio-8080-exec-7][home_views/home] Deprecated unwrapped fragment expression "fragments/header :: header" found in template home_views/home, line 14, col 13. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:49,591 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-7] [THYMELEAF][http-nio-8080-exec-7][home_views/home] Deprecated unwrapped fragment expression "fragments/footer :: footer" found in template home_views/home, line 83, col 11. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,272 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-3] [THYMELEAF][http-nio-8080-exec-3][account_views/login] Deprecated unwrapped fragment expression "/fragments/head :: head" found in template account_views/login, line 3, col 7. Please use the complete syntax of fragment expressions instead ("~{/fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,275 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-3] [THYMELEAF][http-nio-8080-exec-3][account_views/login] Deprecated unwrapped fragment expression "/fragments/header :: header" found in template account_views/login, line 11, col 13. Please use the complete syntax of fragment expressions instead ("~{/fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,281 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-3] [THYMELEAF][http-nio-8080-exec-3][account_views/login] Deprecated unwrapped fragment expression "/fragments/footer :: footer" found in template account_views/login, line 49, col 11. Please use the complete syntax of fragment expressions instead ("~{/fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,292 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-2] [THYMELEAF][http-nio-8080-exec-2][account_views/login] Deprecated unwrapped fragment expression "/fragments/head :: head" found in template account_views/login, line 3, col 7. Please use the complete syntax of fragment expressions instead ("~{/fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,295 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-2] [THYMELEAF][http-nio-8080-exec-2][account_views/login] Deprecated unwrapped fragment expression "/fragments/header :: header" found in template account_views/login, line 11, col 13. Please use the complete syntax of fragment expressions instead ("~{/fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,300 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-2] [THYMELEAF][http-nio-8080-exec-2][account_views/login] Deprecated unwrapped fragment expression "/fragments/footer :: footer" found in template account_views/login, line 49, col 11. Please use the complete syntax of fragment expressions instead ("~{/fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,311 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-1] [THYMELEAF][http-nio-8080-exec-1][account_views/login] Deprecated unwrapped fragment expression "/fragments/head :: head" found in template account_views/login, line 3, col 7. Please use the complete syntax of fragment expressions instead ("~{/fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,317 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-1] [THYMELEAF][http-nio-8080-exec-1][account_views/login] Deprecated unwrapped fragment expression "/fragments/header :: header" found in template account_views/login, line 11, col 13. Please use the complete syntax of fragment expressions instead ("~{/fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,324 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-1] [THYMELEAF][http-nio-8080-exec-1][account_views/login] Deprecated unwrapped fragment expression "/fragments/footer :: footer" found in template account_views/login, line 49, col 11. Please use the complete syntax of fragment expressions instead ("~{/fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,336 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-7] [THYMELEAF][http-nio-8080-exec-7][account_views/login] Deprecated unwrapped fragment expression "/fragments/head :: head" found in template account_views/login, line 3, col 7. Please use the complete syntax of fragment expressions instead ("~{/fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,340 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-7] [THYMELEAF][http-nio-8080-exec-7][account_views/login] Deprecated unwrapped fragment expression "/fragments/header :: header" found in template account_views/login, line 11, col 13. Please use the complete syntax of fragment expressions instead ("~{/fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,346 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-7] [THYMELEAF][http-nio-8080-exec-7][account_views/login] Deprecated unwrapped fragment expression "/fragments/footer :: footer" found in template account_views/login, line 49, col 11. Please use the complete syntax of fragment expressions instead ("~{/fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,356 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-6] [THYMELEAF][http-nio-8080-exec-6][account_views/login] Deprecated unwrapped fragment expression "/fragments/head :: head" found in template account_views/login, line 3, col 7. Please use the complete syntax of fragment expressions instead ("~{/fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,360 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-6] [THYMELEAF][http-nio-8080-exec-6][account_views/login] Deprecated unwrapped fragment expression "/fragments/header :: header" found in template account_views/login, line 11, col 13. Please use the complete syntax of fragment expressions instead ("~{/fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 20:52:50,373 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-6] [THYMELEAF][http-nio-8080-exec-6][account_views/login] Deprecated unwrapped fragment expression "/fragments/footer :: footer" found in template account_views/login, line 49, col 11. Please use the complete syntax of fragment expressions instead ("~{/fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 21:06:01,019 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-14 21:06:01,059 [INFO] org.apache.catalina.core.StandardService [Thread-6] Stopping service [Tomcat]
+2025-08-14 21:06:01,068 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-6] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-08-14 21:06:01,117 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 21:06:01,119 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-6] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-08-14 21:06:01,131 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2025-08-14 21:06:01,150 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2025-08-14 21:06:01,272 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Starting SpringStarterApplication using Java 21.0.5 with PID 375336 (C:\Users\manja\SpringBoot Folder\Adding RestController\target\classes started by manja in C:\Users\manja\SpringBoot Folder\Adding RestController)
+2025-08-14 21:06:01,273 [DEBUG] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Running with Spring Boot v3.0.0, Spring v6.0.2
+2025-08-14 21:06:01,273 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-14 21:06:01,734 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14 21:06:01,766 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 31 ms. Found 3 JPA repository interfaces.
+2025-08-14 21:06:02,045 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2025-08-14 21:06:02,046 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2025-08-14 21:06:02,046 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-08-14 21:06:02,110 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-14 21:06:02,111 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 833 ms
+2025-08-14 21:06:02,134 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2025-08-14 21:06:02,156 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-2 - Added connection conn10: url=jdbc:h2:file:./db/blogdb user=ADMIN
+2025-08-14 21:06:02,158 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2025-08-14 21:06:02,159 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'
+2025-08-14 21:06:02,236 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14 21:06:02,244 [WARN] org.hibernate.orm.deprecation [restartedMain] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2025-08-14 21:06:02,252 [INFO] SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-08-14 21:06:02,375 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-14 21:06:02,375 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14 21:06:02,605 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-14 21:06:02,787 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@430f6740, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ba952df, org.springframework.security.web.context.SecurityContextHolderFilter@44bda1, org.springframework.security.web.header.HeaderWriterFilter@4764fd18, org.springframework.security.web.authentication.logout.LogoutFilter@3feaf30a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e44db4d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@55ec7cbe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52412219, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2180e559, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@7dfa33e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57e01b79, org.springframework.security.web.access.ExceptionTranslationFilter@39095767, org.springframework.security.web.access.intercept.AuthorizationFilter@34945c27]
+2025-08-14 21:06:02,923 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-08-14 21:06:02,938 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-14 21:06:02,945 [INFO] org.studyeasy.SpringStarter.SpringStarterApplication [restartedMain] Started SpringStarterApplication in 1.732 seconds (process running for 806.679)
+2025-08-14 21:06:03,281 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-08-14 21:06:25,560 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-14 21:06:25,561 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-08-14 21:06:25,563 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-08-14 21:06:25,608 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-1] [THYMELEAF][http-nio-8080-exec-1][home_views/home] Deprecated unwrapped fragment expression "fragments/head :: head" found in template home_views/home, line 4, col 7. Please use the complete syntax of fragment expressions instead ("~{fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 21:06:25,614 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-1] [THYMELEAF][http-nio-8080-exec-1][home_views/home] Deprecated unwrapped fragment expression "fragments/header :: header" found in template home_views/home, line 14, col 13. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 21:06:25,629 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-1] [THYMELEAF][http-nio-8080-exec-1][home_views/home] Deprecated unwrapped fragment expression "fragments/footer :: footer" found in template home_views/home, line 83, col 11. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 21:08:26,326 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-4] [THYMELEAF][http-nio-8080-exec-4][home_views/home] Deprecated unwrapped fragment expression "fragments/head :: head" found in template home_views/home, line 4, col 7. Please use the complete syntax of fragment expressions instead ("~{fragments/head :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 21:08:26,327 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-4] [THYMELEAF][http-nio-8080-exec-4][home_views/home] Deprecated unwrapped fragment expression "fragments/header :: header" found in template home_views/home, line 14, col 13. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-08-14 21:08:26,335 [WARN] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor [http-nio-8080-exec-4] [THYMELEAF][http-nio-8080-exec-4][home_views/home] Deprecated unwrapped fragment expression "fragments/footer :: footer" found in template home_views/home, line 83, col 11. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.

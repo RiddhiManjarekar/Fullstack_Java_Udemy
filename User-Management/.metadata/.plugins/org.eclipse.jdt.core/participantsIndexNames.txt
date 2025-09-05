@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+C:\Users\manja\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\167004022.index
+\SpringDemo\src\main\resources
+C:\Users\manja\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2782200112.index
+\exercise-solution\src\main\java
+C:\Users\manja\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4036278871.index
+\MyFirstProject\src\main\java
+C:\Users\manja\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2315524753.index
+\HelloServletM\src\main\java
+C:\Users\manja\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3861183793.index
+\MyFirstProject1\src\main\java
+C:\Users\manja\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1467694324.index
+\SpringDemo\src\main\resources
+C:\Users\manja\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\968862785.index
+\DependencyInjection\src\main\resources

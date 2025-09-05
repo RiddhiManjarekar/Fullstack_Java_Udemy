@@ -1,0 +1,55 @@
+2025-09-05 12:22:31,425 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Starting SpringRestdemoApplication using Java 21.0.5 with PID 25008 (C:\Mum\CORS\backend\S04L16 - Delete Album API - backend with cors disabled\target\classes started by manja in C:\Mum\CORS\backend\S04L16 - Delete Album API - backend with cors disabled)
+2025-09-05 12:22:31,441 [DEBUG] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2025-09-05 12:22:31,442 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-09-05 12:22:32,677 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-05 12:22:32,777 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces.
+2025-09-05 12:22:33,676 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2025-09-05 12:22:33,694 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2025-09-05 12:22:33,695 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2025-09-05 12:22:33,877 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2025-09-05 12:22:33,878 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2335 ms
+2025-09-05 12:22:33,918 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2025-09-05 12:22:34,379 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/db user=ADMIN
+2025-09-05 12:22:34,382 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-09-05 12:22:34,399 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/db'
+2025-09-05 12:22:34,565 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-05 12:22:34,662 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2025-09-05 12:22:34,866 [WARN] org.hibernate.orm.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2025-09-05 12:22:35,070 [INFO] SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-09-05 12:22:36,319 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-09-05 12:22:36,336 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-05 12:22:39,337 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-05 12:22:40,898 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5058fefb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@198a0416, org.springframework.security.web.context.SecurityContextHolderFilter@593e594f, org.springframework.security.web.header.HeaderWriterFilter@951461a, org.springframework.security.web.authentication.logout.LogoutFilter@1fc4b8d6, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@6b3da23f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7866fe3e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65a3d7c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f207142, org.springframework.security.web.session.SessionManagementFilter@79735611, org.springframework.security.web.access.ExceptionTranslationFilter@7c9c7e7d, org.springframework.security.web.access.intercept.AuthorizationFilter@a0e35c3]
+2025-09-05 12:22:41,649 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-05 12:22:41,664 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Started SpringRestdemoApplication in 10.928 seconds (process running for 11.632)
+2025-09-05 12:24:10,713 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-05 12:24:10,718 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-09-05 12:24:10,725 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2025-09-05 12:24:11,944 [DEBUG] org.studyeasy.SpringRestdemo.controller.AuthController [http-nio-8080-exec-10] TOKEN_GENERATION_ERROR: Bad credentials
+2025-09-05 15:39:36,533 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Starting SpringRestdemoApplication using Java 21.0.5 with PID 15344 (C:\Mum\CORS\backend\S04L16 - Delete Album API - backend with cors disabled\target\classes started by manja in C:\Mum\CORS\backend\S04L16 - Delete Album API - backend with cors disabled)
+2025-09-05 15:39:36,534 [DEBUG] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2025-09-05 15:39:36,534 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-09-05 15:39:37,257 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-05 15:39:37,314 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2025-09-05 15:39:37,847 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2025-09-05 15:39:37,859 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2025-09-05 15:39:37,859 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2025-09-05 15:39:37,963 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2025-09-05 15:39:37,963 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1379 ms
+2025-09-05 15:39:37,985 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2025-09-05 15:39:38,237 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/db user=ADMIN
+2025-09-05 15:39:38,239 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-09-05 15:39:38,260 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/db'
+2025-09-05 15:39:38,411 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-05 15:39:38,470 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2025-09-05 15:39:38,602 [WARN] org.hibernate.orm.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2025-09-05 15:39:38,757 [INFO] SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-09-05 15:39:39,539 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-09-05 15:39:39,550 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-05 15:39:40,773 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-05 15:39:41,480 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c76b2fe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7fa2473a, org.springframework.security.web.context.SecurityContextHolderFilter@209d0037, org.springframework.security.web.header.HeaderWriterFilter@5776a9f8, org.springframework.security.web.authentication.logout.LogoutFilter@682270ff, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@5abc488d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b39bee2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b7dd173, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47629063, org.springframework.security.web.session.SessionManagementFilter@5f6ba085, org.springframework.security.web.access.ExceptionTranslationFilter@28b16193, org.springframework.security.web.access.intercept.AuthorizationFilter@79735611]
+2025-09-05 15:39:41,703 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-05 15:39:41,709 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Started SpringRestdemoApplication in 5.564 seconds (process running for 5.879)
+2025-09-05 15:56:35,904 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-05 15:56:35,910 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-09-05 15:56:35,935 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 24 ms

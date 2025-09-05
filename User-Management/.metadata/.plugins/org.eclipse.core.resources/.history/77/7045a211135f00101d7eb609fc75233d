@@ -1,0 +1,5 @@
+package org.studyeasy.Hibernate1;
+
+public class HibernateUtil {
+
+}
