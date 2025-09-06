@@ -1,5 +1,0 @@
-<title>Hello World JSP</title>
- 
- 
-    <h1>Hello, World!</h1>
-    <p>This is my first JSP page.</p>

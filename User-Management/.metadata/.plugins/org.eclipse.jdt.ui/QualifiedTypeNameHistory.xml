@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.studyeasy.car.Swift"/>
-    <fullyQualifiedTypeName name="org.studyeasy.car.Corolla"/>
-    <fullyQualifiedTypeName name="org.studyeasy.interfaces.Car"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
-</qualifiedTypeNameHistroy>

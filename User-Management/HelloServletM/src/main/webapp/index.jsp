@@ -1,7 +1,0 @@
-<%@ page import="org.studyeasy.HelloServletM" %>
-
-<html>
-<body>
-<h2><%= "Hello World!" %></h2>
-</body>
-</html>
